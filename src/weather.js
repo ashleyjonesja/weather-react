@@ -11,7 +11,7 @@ export default function Weather() {
     description: "Cloudy",
     imgUrl: "https://ssl.gstatic.com/onebox/weather/64/sunny.png",
     humidity: 80,
-    wind: 10,
+    wind: 12,
   };
 
   return (
