@@ -3,5 +3,5 @@ import React from "react";
 import ReactDOM from "react-dom";
 import "./index.css";
 import reportWebVitals from "./reportWebVitals";
-import Weather from "./Weather";
-import App from "./index";
+import Weather from "./Weather.js";
+import App from "./index.js";
