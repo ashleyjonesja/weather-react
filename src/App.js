@@ -10,7 +10,7 @@ export default function App() {
       <div className="container">
       <Weather />
       <footer>
-        This project was coded by Jacinda Ashley-Jones and is{" "}<a href="https://github.com/ashleyjonesja/weather-react" target="_blank">
+        This project was coded by Jacinda Ashley-Jones and is{" "}<a href="https://github.com/ashleyjonesja/weather-react" target="_blank" rel="noreferrer">
         open-sourced on GitHub</a>
       </footer>
       </div>
