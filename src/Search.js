@@ -21,6 +21,7 @@ export default function Search() {
             className="form-control"
             autoComplete="off"
             onChange={updateCity}
+            autoFocus="on"
           />
         </div>
         <div className="col-3">
