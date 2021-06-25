@@ -1,15 +1,7 @@
 import React from "react";
 import ReactDOM from "react-dom";
 import "./index.css";
-import Weather from "./Weather.js";
+import "bootstrap/dist/css/bootstrap.css";
+import App from "./App";
 
-function App() {
-  return (
-    <div className="App">
-      <Weather />
-    </div>
-  );
-}
-
-const rootElement = document.getElementById("root");
-ReactDOM.render(<App />, rootElement);
+ReactDOM.render(<App />, document.getElementById("root"));
