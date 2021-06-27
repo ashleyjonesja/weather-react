@@ -1,7 +1,8 @@
 import React, { useState } from "react";
 import axios from "axios";
 import "./Weather.css";
-import Search from "./Search";
+import WeatherIcon from "./WeatherIcon";
+import WeatherInfo from ".WeatherInfo";
 
 
 export default function Weather(props) {
@@ -40,37 +41,27 @@ export default function Weather(props) {
 if (weatherData.ready) {
 return (
     <div className="Weather">
-      <Search />
-      <div className="overview">
-        <h1>{weatherData.city}</h1>
-        <ul>
-          <li>Last updated: {weatherData.date}</li>
-          <li>{weatherData.description}</li>
-        </ul>
-      </div>
+      <form className="mb-3" onSubmit={handleSubmit}>
       <div className="row">
-        <div className="col-6">
-          <div className="clearfix weather-temperature">
-            <img
-              src={weatherData.imgUrl}
-              alt={weatherData.description}
-              className="float-left"
-            />
-            <div className="float-left">
-              <strong>{weatherData.temperature}</strong>
-              <span className="units">
-                <a href="/">°C</a> | <a href="/">°F</a>
-              </span>
-            </div>
-          </div>
+        <div className="col-9">
+          <input
+            type="search"
+            placeholder="Enter a city.."
+            className="form-control"
+            autoComplete="off"
+            onChange={handleCityChange}
+            autoFocus="on"
+          />
         </div>
-        <div className="col-6">
-          <ul>
-            <li>Humidity: {weatherData.humidity}%</li>
-            <li>Wind: {weatherData.wind} km/h</li>
-          </ul>
+        <div className="col-3">
+          <input
+            type="submit"
+            value="Search"
+            className="btn btn-primary w-100"
+          />
         </div>
       </div>
+    </form>
        <WeatherInfo data={weatherData} />
         <WeatherForecast coordinates={weatherData.coordinates} />
     </div>

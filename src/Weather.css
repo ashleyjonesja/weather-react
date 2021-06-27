@@ -76,7 +76,7 @@
   padding-top: 7px;
 }
 
-.Weather .weather-forecast img {
+.Weather .weather-forecast canvas {
   display: block;
   margin: 0 auto;
   height: 48px;
