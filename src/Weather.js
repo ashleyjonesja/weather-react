@@ -1,7 +1,7 @@
 import React, { useState } from "react";
 import axios from "axios";
-import "./Weather.css";
-import WeatherIcon from "./WeatherIcon";
+import "./Weather";
+import WeatherForecast from "./WeatherForecast";
 import WeatherInfo from ".WeatherInfo";
 
 

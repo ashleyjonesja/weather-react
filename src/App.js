@@ -1,6 +1,6 @@
 import React from "react";
 import ReactDOM from "react-dom";
-import "./index.css";
+import "./App.css";
 import Weather from "./Weather.js";
 import "bootstrap/dist/css/bootstrap.css";
 
@@ -16,7 +16,4 @@ export default function App() {
       </div>
     </div>
   );
-}
-
-const rootElement = document.getElementById("root");
-ReactDOM.render(<App />, rootElement);
+  }
