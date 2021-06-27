@@ -3,7 +3,6 @@
   border: 1px solid #dadde1;
   border-radius: 4px;
   color:gray;
-
 }
 
 .Weather h1 {
@@ -27,6 +26,10 @@
   list-style: none;
 }
 
+.Weather canvas {
+  margin: 10px auto;
+}
+
 .Weather .temperature {
   font-weight: bold;
   color: rgb(33, 33, 33);
@@ -37,9 +40,6 @@
   margin-left: 10px;
 }
 
-.Weather canvas {
-  margin: 10px auto;
-}
 
 .Weather .unit {
   color: rgb(33, 33, 33);
