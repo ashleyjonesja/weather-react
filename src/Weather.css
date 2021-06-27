@@ -49,3 +49,12 @@
   line-height: 1;
   top: -34px;
 }
+
+.WeatherForecast {
+  text-align: center;
+}
+
+.WeatherForecast-temperature-min {
+  opacity: 0.6;
+  margin-left: 5px;
+}
