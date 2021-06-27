@@ -17,10 +17,10 @@ export default function Search() {
         <div className="col-9">
           <input
             type="search"
-            placeholder="Type a city.."
+            placeholder="Enter a city.."
             className="form-control"
             autoComplete="off"
-            onChange={updateCity}
+            onChange={handleCityChange}
             autoFocus="on"
           />
         </div>
