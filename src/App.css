@@ -5,9 +5,8 @@ body {
 }
 
 .App {
-  max-width: 600px;
-  max-height: 550px;
-  margin: 30px auto;
+  max-width: 800px;
+  margin: 60px auto;
 }
 
 .App footer {
