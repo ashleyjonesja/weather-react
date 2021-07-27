@@ -26,7 +26,7 @@
   font-weight: 100;
   line-height: 19px;
   list-style: none;
-  padding-top: 10px;
+  padding-top: 8px;
 }
 
 span {
@@ -61,6 +61,10 @@ span {
 
 .WeatherForecast {
   text-align: center;
+}
+
+.WeeklyWeather {
+  padding-top: 10px;
 }
 
 .WeatherForecast-temperature-min {
