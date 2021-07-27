@@ -16,7 +16,11 @@
   line-height: 48px;
 }
 
-.CurrentTemp .HumidityWind div {
+.Weather .CurrentTemp div {
+  margin: 20px;
+}
+
+.Weather .HumidityWind ul {
   margin: 20px;
 }
 
