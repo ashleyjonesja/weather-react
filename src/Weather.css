@@ -16,14 +16,6 @@
   line-height: 48px;
 }
 
-.Weather .CurrentTemp div {
-  margin: 20px;
-}
-
-.Weather .HumidityWind ul {
-  margin: 20px;
-}
-
 .Weather ul {
   margin: 0;
   padding: 0;
@@ -34,7 +26,7 @@
   font-weight: 100;
   line-height: 19px;
   list-style: none;
-  padding-top: 8px;
+  padding-top: 7px;
 }
 
 span {
@@ -69,7 +61,6 @@ span {
 
 .WeatherForecast {
   text-align: center;
-  padding-top: 10px;
 }
 
 .WeatherForecast-temperature-min {
