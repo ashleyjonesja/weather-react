@@ -6,6 +6,7 @@ body {
 .App {
   max-width: 600px;
   margin: 30px auto;
+  background-color: #f6f6f6;
 }
 
 .App footer {
