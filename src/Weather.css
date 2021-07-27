@@ -86,6 +86,10 @@ span {
   line-height: 20px;
 }
 
-.WeatherInfo div {
+.WeatherInfo {
   padding-bottom: 10px;
+}
+
+div.DateFormat {
+  font-weight: 600;
 }
