@@ -86,3 +86,7 @@ span {
   height: 50px;
   line-height: 20px;
 }
+
+.WeatherInfo div {
+  padding-bottom: 10px;
+}
