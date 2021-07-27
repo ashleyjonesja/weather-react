@@ -9,10 +9,10 @@
 
 .Weather h1 {
   color: #142850;
-  font-size: 24px;
+  font-size: 38px;
   font-weight: 900;
   margin: 20px 0 0 0;
-  line-height: 29px;
+  line-height: 48px;
 }
 
 .Weather ul {
@@ -27,7 +27,7 @@
   list-style: none;
 }
 
-.humidity .wind {
+span {
   font-size: 16px;
   font-weight: 100;
   line-height: 19px;
@@ -70,6 +70,7 @@
   background: #00a8cc;
   font-weight: 700;
   font-size: 16px;
+  border: none;
 }
 
 .Weather .search-input {
