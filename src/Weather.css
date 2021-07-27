@@ -90,3 +90,7 @@ span {
 .WeatherInfo div {
   padding-bottom: 10px;
 }
+
+.returndate {
+  font-weight: 700;
+}
