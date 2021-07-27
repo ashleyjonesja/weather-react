@@ -87,3 +87,7 @@ span {
   height: 50px;
   line-height: 20px;
 }
+
+.d-flex .HumidityWind {
+  margin: 20px;
+}
