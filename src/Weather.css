@@ -4,6 +4,7 @@
   border-radius: 4px;
   color: gray;
   font-family: "Quicksand", sans-serif;
+  background-color: #e8f1f5;
 }
 
 .Weather h1 {
@@ -31,7 +32,7 @@
 
 .Weather .temperature {
   font-weight: bold;
-  color: rgb(33, 33, 33);
+  color: #27496d;
   font-size: 64px;
   line-height: 64px;
   margin-left: 5px;
@@ -40,7 +41,7 @@
 }
 
 .Weather .unit {
-  color: rgb(33, 33, 33);
+  color: grey;
   font-size: 16px;
   font-weight: 400;
   position: relative;
@@ -55,4 +56,13 @@
 .WeatherForecast-temperature-min {
   opacity: 0.6;
   margin-left: 5px;
+}
+
+.Weather .btn {
+  background: #00a8cc;
+  font-weight: 700;
+  font-size: 16px;
+  padding: 15px 0;
+  border: none;
+  height: 50px;
 }
